@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primer: #ededed;
+    --sekunder: #111111;
+    --tersier: #FFCD29;
+}
+
+body{
+    background: var(--sekunder);
+    color: var(--primer);
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 632px 319px 550px;
+}
+
+.head {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 36px;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.noStyleUl {
+    list-style: none;
+    margin-right:40px;
+}
+
+.noStyleUl li {
+    display: inline;
+    margin-left: 50px;
+}
+
+.noStyleUl a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--primer);
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    transition: .3s;
+}
+
+.noStyleUl a:hover,
+.noStyleUl a.active{
+    color: var(--tersier);
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 250px;
+}
+
+.center p{
+    color: var(--tersier);
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-box {
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    background: transparent;
+    border: 2px solid var(--tersier);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--tersier);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.btn-box a:hover{
+    color: var(--primer);
+}
+
+.active, .btn:hover{
+    color: white;
+}
+
+.btn-box a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: var(--tersier);
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+}
+
+h2 {
+    padding-left: 37px;
+    padding-top: 20px;
+}
+
+.subHeaderGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.subHeaderGrid-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px var(--tersier) solid;
+    border-radius: 25px;
+}
+
+.subHeaderGrid-item h3 {
+    margin-top: 31px;
+    font-size: 22px;
+}
+
+.subHeaderGrid-item img {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    transition: .5s;
+}
+
+.subHeaderGrid-item img:hover{
+    transform: scale(1.1);
+}
+
+.callToAction-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.callToAction-padding img {
+    width: 30px;
+    height: 30px;
+}
+
+.subitem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.subitem-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border: 1px var(--tersier) solid;
+    border-radius: 25px;
+}
+
+.subitem-item h3 {
+    margin-top: 31px;
+    font-size: 22px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        grid-template-rows: auto auto auto;
+    }
+
+    .head {
+        padding: 20px;
+    }
+
+    .btn-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .subHeaderGrid-item,
+    .subitem-item {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .subHeaderGrid-item img,
+    .callToAction-padding img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .noStyleUl li {
+        margin-left: 20px;
+    }
+
+    .btn-box {
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
+}
