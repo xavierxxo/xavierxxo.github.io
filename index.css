@@ -216,8 +216,7 @@ footer {
     }
 
     .btn-box {
-        margin-left: 20px;
-        margin-right: 20px;
+        align-self: center;
     }
 
     .subHeaderGrid-item,
