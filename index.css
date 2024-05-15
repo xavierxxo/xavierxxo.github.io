@@ -33,6 +33,7 @@ body{
     padding-left: 30px;
     padding-right: 36px;
     background-color: var(--sekunder);
+    width: 100%;
 }
 
 body {
