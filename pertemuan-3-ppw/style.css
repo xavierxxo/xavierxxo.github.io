@@ -1,0 +1,166 @@
+.date {
+    background-color: #EEECEC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin-bottom: 0;
+}
+
+.header-hr {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0; 
+    background-color: #E2E2E2; 
+    height: 1px;
+}
+
+h2 {
+    color : #9A9695;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #9A9695;
+}
+
+.grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 900px 330px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-content {
+    border-right: #cfcccc solid 1px;
+    margin-left: 20px;
+}
+
+.judul {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #0078D6;
+    font-size: 40px;
+}
+
+.tgl {
+    margin-top: 0;
+    color: #979494;
+}
+
+.gambar {
+    max-width: 97%; 
+    height: auto;
+}
+
+.isi {
+    color: black;
+    font-size: 130%;
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+.tautan {
+    text-decoration: none; 
+    color: #000080;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+.hr-bawah {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    border: 0; 
+    background-color: #cfcccc; 
+    height: 1px;
+}
+
+.grid-content-kanan {
+    margin-left: 30px;
+}
+
+.table-bt {
+    width: 90%;
+    border-top:#aec2ea solid 2px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-bt th {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(233, 239, 246);
+    color: black;
+}
+
+.table-bt td {
+    padding: 5px;
+    border-bottom: rgb(240, 238, 238) solid 1px;
+    text-align: left;
+    font-size: 80%;
+}
+
+.table-sd {
+    width: 90%;
+    border-top:#aec2ea solid 2px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-sd th {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(233, 239, 246);
+    color: black;
+}
+
+.table-sd td {
+    padding: 5px;
+    border-bottom: rgb(240, 238, 238) solid 1px;
+    text-align: left;
+    font-size: 80%;
+}
+
+.table-jb {
+    width: 90%;
+    border-top:#aec2ea solid 2px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-jb th {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(233, 239, 246);
+    color: black;
+}
+
+.table-jb td {
+    padding: 5px;
+    border-bottom: rgb(240, 238, 238) solid 1px;
+    text-align: left;
+    font-size: 80%;
+    color: #0078D6;
+}
+
+.links {
+    text-decoration: none;
+    color: #0078D6;
+}
+.browse {
+    text-decoration: none; 
+    color: #0078D6;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    font-size: 110%;
+    color: black;
+}
